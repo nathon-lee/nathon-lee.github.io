@@ -1,0 +1,3 @@
+Software engineer working on distributed systems and large-scale image infrastructure.
+Interested in system reliability, data governance, and scalable AI systems.
+Currently exploring research directions at the intersection of large models and infrastructure.
