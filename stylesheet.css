@@ -140,3 +140,9 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.highlight-title {
+  background-color: #ffffd0;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
