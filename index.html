@@ -51,7 +51,7 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                  I'm interested in AI infrastructure, large-scale distributed systems, and efficient training and serving of foundation models. My work focuses on improving the scalability and performance of LLM training through innovations in parallelism, communication optimization, memory management, and reinforcement learning pipelines. I have contributed to several open-source projects, including DeepSpeed, OpenRLHF, and Ray RLlib, with a particular interest in bridging research ideas and production-scale AI systems. Some papers are <span class="highlight">highlighted</span>.
                 </p>
               </td>
             </tr>
@@ -102,25 +102,23 @@
               </td>
             </tr>
 
-			<tr onmouseout="core_stop()" onmouseover="core_start()" bgcolor="#ffffd0">
-        <td style="padding:16px;width:20%;vertical-align:middle">
+		       <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='skyopt_image'>
-                    <img src='images/skyopt_after.jpg' width=100%>
-                  </div>
-                  <img src='images/skyopt_before.jpg' width=100%>
+                  <div class="two" id='mpi_image'><img src='images/mpi_after.jpg'></div>
+                  <img src='images/mpi_before.jpg'>
                 </div>
-
                 <script type="text/javascript">
-                  function core_start() {
-                    document.getElementById('core_image').style.opacity = "1";
+                  function mpi_start() {
+                    document.getElementById('mpi_image').style.opacity = "1";
                   }
-                  function core_stop() {
-                    document.getElementById('core_image').style.opacity = "0";
+
+                  function mpi_stop() {
+                    document.getElementById('mpi_image').style.opacity = "0";
                   }
-                  core_stop()
+                  mpi_stop()
                 </script>
-        </td>
+              </td>
         <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="data/CORE_Mitigating_Majority_Bias_in_Language_Agents_via_Counterfactual_Utility_Reweighting.pdf">
                   <span class="papertitle">CORE: Mitigating Majority Bias in Language Agents via Counterfactual Utility Reweighting</span>
