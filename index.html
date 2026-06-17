@@ -105,10 +105,10 @@
 			<tr onmouseout="core_stop()" onmouseover="core_start()" bgcolor="#ffffd0">
         <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='core_image'>
-                    <img src='images/core_after.jpg' width=100%>
+                  <div class="two" id='skyopt_image'>
+                    <img src='images/skyopt_after.jpg' width=100%>
                   </div>
-                  <img src='images/core_before.jpg' width=100%>
+                  <img src='images/skyopt_before.jpg' width=100%>
                 </div>
 
                 <script type="text/javascript">
@@ -134,7 +134,7 @@
                 	<span style="color:#666">Code: Repository link parse failed</span>
                 	<p></p>
                 	<p>
-                  	We propose CORE (Counterfactual Outcome-Regularized Estimation), a principled framework to mitigate majority-frequency bias in language agents. Traditional LLMs optimize for training data distribution matching and tend to select frequent yet low-utility reasoning paths, ignoring rare high-performance trajectories. CORE introduces Latent Semantic Decision Nodes to resolve token sparsity, inverse-propensity counterfactual utility estimation to eliminate selection bias, and an Epistemic Value-Gating mechanism to avoid over-correcting when majority paths are optimal. Evaluations on mathematical reasoning (MATH, AIME, GPQA) and long-horizon agent benchmarks (WebArena, SWE-bench, GAIA) show CORE substantially outperforms Self-Consistency, PRM, MCTS and offline RL baselines by discovering hidden high-utility minority strategies without sacrificing standard task performance.
+                  	We present CORE to fix language agents’ majority bias, which favors common but ineffective reasoning paths. It uses latent semantic abstraction, counterfactual IPS weighting and epistemic gating to find rare high-utility solutions. CORE achieves state-of-the-art results on math and long-horizon agent benchmarks.
                 	</p>
         		</td>
 			</tr>
